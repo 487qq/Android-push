@@ -1,5 +1,6 @@
 <%@ page language="java" errorPage="/error.jsp" pageEncoding="UTF-8" contentType="text/html;charset=utf-8"%>
 <%@ include file="/includes/taglibs.jsp"%>
+<%pageContext.setAttribute("basePath",request.getContextPath());%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -18,13 +19,13 @@
         </div>
         <div id="content">
 			<ul id="tabmenu">
-				<li><a href="index.do"
+				<li><a href="${basePath}/index.do"
 					class="<c:if test="${topMenu eq 'home'}"><c:out value="current" /></c:if>">首页</a></li>
-				<li><a href="user.do"
+				<li><a href="${basePath}/user.do"
 					class="<c:if test="${topMenu eq 'user'}"><c:out value="current" /></c:if>">所有用户</a></li>
-				<li><a href="session.do"
+				<li><a href="${basePath}/session.do"
 					class="<c:if test="${topMenu eq 'session'}"><c:out value="current" /></c:if>">在线用户</a></li>
-				<li><a href="notification.do"
+				<li><a href="${basePath}/notification.do"
 					class="<c:if test="${topMenu eq 'notification'}"><c:out value="current" /></c:if>">推送消息</a></li>
 			</ul>
 			<div id="tabcontent">
