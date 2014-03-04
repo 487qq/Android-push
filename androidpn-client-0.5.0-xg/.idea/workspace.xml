@@ -139,13 +139,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HeartActionBroadCast.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="HeartActionBroadCast.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/org/androidpn/demoapp/HeartActionBroadCast.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="48" selection-start="569" selection-end="569" vertical-scroll-proportion="0.6441718" vertical-offset="0" max-vertical-offset="489">
+            <state line="10" column="39" selection-start="260" selection-end="260" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="405">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider editor-type-id="MarkdownPreviewEditor">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="25" selection-start="182" selection-end="182" vertical-scroll-proportion="0.29157668" vertical-offset="0" max-vertical-offset="463">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -250,6 +262,7 @@
         <option value="$PROJECT_DIR$/src/org/androidpn/client/NotificationService.java" />
         <option value="$PROJECT_DIR$/src/org/androidpn/client/Constants.java" />
         <option value="$PROJECT_DIR$/src/org/androidpn/demoapp/HeartActionBroadCast.java" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -630,16 +643,16 @@
       <workItem from="1393463652077" duration="768000" />
       <workItem from="1393815487614" duration="1682000" />
       <workItem from="1393838783461" duration="389000" />
-      <workItem from="1393918794683" duration="1667000" />
+      <workItem from="1393918794683" duration="2269000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46600000" />
+    <option name="totallyTimeSpent" value="47202000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="1280" height="976" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -661,7 +674,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2980614" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2980614" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32905483" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -692,11 +705,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/res/raw/androidpn.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="22" selection-start="40" selection-end="40" vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="135" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/org/androidpn/client/XmppManager.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="250" column="72" selection-start="7547" selection-end="7547" vertical-scroll-proportion="0.0" vertical-offset="3750" max-vertical-offset="6570">
@@ -1043,10 +1051,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/org/androidpn/demoapp/HeartActionBroadCast.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="48" selection-start="569" selection-end="569" vertical-scroll-proportion="0.6441718" vertical-offset="0" max-vertical-offset="489">
+        <state line="10" column="39" selection-start="260" selection-end="260" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="405">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="25" selection-start="182" selection-end="182" vertical-scroll-proportion="0.29157668" vertical-offset="0" max-vertical-offset="463">
+          <folding />
         </state>
       </provider>
     </entry>
