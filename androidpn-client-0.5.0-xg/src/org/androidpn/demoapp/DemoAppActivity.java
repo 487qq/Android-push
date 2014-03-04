@@ -15,6 +15,10 @@
  */
 package org.androidpn.demoapp;
 
+import android.app.AlarmManager;
+import android.app.PendingIntent;
+import android.content.Intent;
+import android.os.SystemClock;
 import org.androidpn.client.ServiceManager;
 
 import android.app.Activity;
@@ -29,7 +33,8 @@ import android.widget.Button;
  * @author Sehwan Noh (devnoh@gmail.com)
  */
 public class DemoAppActivity extends Activity {
-
+    AlarmManager am;
+    PendingIntent pi;
     @Override
     public void onCreate(Bundle savedInstanceState) {
         Log.d("DemoAppActivity", "onCreate()...");
@@ -49,6 +54,19 @@ public class DemoAppActivity extends Activity {
         ServiceManager serviceManager = new ServiceManager(this);
         serviceManager.setNotificationIcon(R.drawable.notification);
         serviceManager.startService();
+    }
+
+
+    public void registerAlarmManager(){
+        am = (AlarmManager)getSystemService(ALARM_SERVICE);
+        Intent intent=new Intent();
+        intent.setClass(this,HeartActionBroadCast.class);
+        pi = PendingIntent.getBroadcast(this, 0, intent, Intent.FLAG_ACTIVITY_NEW_TASK);
+        long firstime= SystemClock.elapsedRealtime();
+        /**
+         * 此处最好不要用RTC_WARKUP，因为这个属性部分机型不支持（小米）
+         */
+        am.setInexactRepeating(AlarmManager.ELAPSED_REALTIME_WAKEUP, firstime,  30 * 1000, pi);
     }
 
 }

@@ -308,7 +308,7 @@ public class XmppManager {
                 connConfig.setSecurityMode(SecurityMode.required);
                 connConfig.setSASLAuthenticationEnabled(false);
                 connConfig.setCompressionEnabled(false);
-//                connConfig.setReconnectionAllowed(true);
+
                 XMPPConnection connection = new XMPPConnection(connConfig);
                 xmppManager.setConnection(connection);
 
@@ -424,6 +424,7 @@ public class XmppManager {
 
         final XmppManager xmppManager;
 
+
         private LoginTask() {
             this.xmppManager = XmppManager.this;
         }
@@ -458,7 +459,6 @@ public class XmppManager {
                     xmppManager.runTask();
 
                 } catch (XMPPException e) {
-//                    xmppManager.setConnection(null);
                     Log.e(LOGTAG, "LoginTask.run()... xmpp error");
                     Log.e(LOGTAG, "Failed to login to xmpp server. Caused by: "
                             + e.getMessage());
@@ -473,7 +473,6 @@ public class XmppManager {
                     xmppManager.startReconnectionThread();
 
                 } catch (Exception e) {
-//                    xmppManager.setConnection(null);
                     Log.e(LOGTAG, "LoginTask.run()... other error");
                     Log.e(LOGTAG, "Failed to login to xmpp server. Caused by: "
                             + e.getMessage());

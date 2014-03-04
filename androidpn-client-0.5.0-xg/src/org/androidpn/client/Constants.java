@@ -78,6 +78,6 @@ public class Constants {
 
     public static final String ACTION_NOTIFICATION_CLEARED = "org.androidpn.client.NOTIFICATION_CLEARED";
 
-
+     public static XmppManager xmppManager;
 
 }

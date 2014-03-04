@@ -16,6 +16,7 @@
 package org.androidpn.client;
 
 import org.jivesoftware.smack.PacketListener;
+import org.jivesoftware.smack.packet.IQ;
 import org.jivesoftware.smack.packet.Packet;
 
 import android.content.Intent;
@@ -68,6 +69,14 @@ public class NotificationPacketListener implements PacketListener {
                 //                        "notif://notification.androidpn.org/")).append(
                 //                        notificationApiKey).append("/").append(
                 //                        System.currentTimeMillis()).toString()));
+
+
+                //发送收到通知回执
+                IQ result = NotificationIQ.createResultIQ(notification);
+
+                try{
+                    xmppManager.getConnection().sendPacket(result);
+                }catch(Exception e){}
 
                 xmppManager.getContext().sendBroadcast(intent);
             }
