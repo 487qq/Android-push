@@ -95,20 +95,18 @@ public class NotificationManager {
 			}
 			// 将消息的ID添加到通知对象
 			CopyMessageUtil.IQ2Message(notificationIQ, notificationMO);
-
+			notificationMO.setStatus(NotificationMO.STATUS_NOT_SEND);
 			if (session.getPresence().isAvailable()) {
-				notificationMO.setStatus(NotificationMO.STATUS_SEND);
-				notificationIQ.setTo(session.getAddress());
-			boolean result=	session.deliver(notificationIQ);
 				
-				if(result){
-					notificationMO.setStatus(NotificationMO.STATUS_SEND);
-					}else{
-						notificationMO.setStatus(NotificationMO.STATUS_NOT_SEND);	
-					}
-			} else {
-				notificationMO.setStatus(NotificationMO.STATUS_NOT_SEND);
-			}
+				notificationIQ.setTo(session.getAddress());
+				session.deliver(notificationIQ);
+
+//				if (result) {
+//					notificationMO.setStatus(NotificationMO.STATUS_SEND);
+//				} else {
+//					notificationMO.setStatus(NotificationMO.STATUS_NOT_SEND);
+//				}
+			} 
 			//将每个通知加入集合中
 			notificationMOs.add(notificationMO);
 		}
