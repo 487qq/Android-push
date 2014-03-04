@@ -156,7 +156,7 @@
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="25" selection-start="182" selection-end="182" vertical-scroll-proportion="0.29157668" vertical-offset="0" max-vertical-offset="463">
+            <state line="9" column="0" selection-start="161" selection-end="161" vertical-scroll-proportion="0.29157668" vertical-offset="0" max-vertical-offset="463">
               <folding />
             </state>
           </provider>
@@ -643,12 +643,12 @@
       <workItem from="1393463652077" duration="768000" />
       <workItem from="1393815487614" duration="1682000" />
       <workItem from="1393838783461" duration="389000" />
-      <workItem from="1393918794683" duration="2269000" />
+      <workItem from="1393918794683" duration="2415000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47202000" />
+    <option name="totallyTimeSpent" value="47348000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="1280" height="976" extended-state="6" />
@@ -1063,7 +1063,7 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="25" selection-start="182" selection-end="182" vertical-scroll-proportion="0.29157668" vertical-offset="0" max-vertical-offset="463">
+        <state line="9" column="0" selection-start="161" selection-end="161" vertical-scroll-proportion="0.29157668" vertical-offset="0" max-vertical-offset="463">
           <folding />
         </state>
       </provider>
