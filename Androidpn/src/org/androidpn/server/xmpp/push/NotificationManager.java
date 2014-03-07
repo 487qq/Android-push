@@ -157,13 +157,14 @@ public class NotificationManager {
 		if (session != null && session.getPresence().isAvailable()) {
 			notificationIQ.setTo(session.getAddress());
 			//推送消息
-			boolean result=session.deliver(notificationIQ);
+			session.deliver(notificationIQ);
 			//已发送状态
-			if(result){
-			notificationMO.setStatus(NotificationMO.STATUS_SEND);
-			}else{
-				notificationMO.setStatus(NotificationMO.STATUS_NOT_SEND);	
-			}
+//			if(result){
+//			notificationMO.setStatus(NotificationMO.STATUS_SEND);
+//			}else{
+//					
+//			}
+			notificationMO.setStatus(NotificationMO.STATUS_NOT_SEND);
 			try {
 				notificationMO.setClientIp(session.getHostAddress());
 				notificationMO.setResource(session.getAddress().getResource());

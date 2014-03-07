@@ -119,123 +119,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="XmppManager.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/org/androidpn/client/XmppManager.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="433" column="10" selection-start="14145" selection-end="14145" vertical-scroll-proportion="0.0" vertical-offset="5417" max-vertical-offset="6555">
-              <folding>
-                <element signature="e#6756#6772#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Constants.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/org/androidpn/client/Constants.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="80" column="43" selection-start="2795" selection-end="2795" vertical-scroll-proportion="0.0" vertical-offset="658" max-vertical-offset="1125">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="HeartActionBroadCast.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/org/androidpn/demoapp/HeartActionBroadCast.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="39" selection-start="260" selection-end="260" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="405">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider editor-type-id="MarkdownPreviewEditor">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="0" selection-start="184" selection-end="184" vertical-scroll-proportion="0.3563715" vertical-offset="0" max-vertical-offset="463">
+            <state line="8" column="49" selection-start="216" selection-end="216" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NotificationReceiver.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/org/androidpn/client/NotificationReceiver.java">
+      <file leaf-file-name="NotificationService.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/org/androidpn/client/NotificationService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="68" column="69" selection-start="2656" selection-end="2779" vertical-scroll-proportion="0.0" vertical-offset="334" max-vertical-offset="1575">
-              <folding>
-                <element signature="e#0#5454#0" expanded="false" />
-                <element signature="imports" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NotificationPacketListener.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/org/androidpn/client/NotificationPacketListener.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="73" column="19" selection-start="3093" selection-end="3093" vertical-scroll-proportion="0.0" vertical-offset="621" max-vertical-offset="1110">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NotificationIQProvider.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/org/androidpn/client/NotificationIQProvider.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="13" selection-start="900" selection-end="900" vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="795">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NotificationSettingsActivity.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/org/androidpn/client/NotificationSettingsActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="123" column="26" selection-start="5053" selection-end="5053" vertical-scroll-proportion="0.0" vertical-offset="1161" max-vertical-offset="1650">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NotificationIQ.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/org/androidpn/client/NotificationIQ.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="13" selection-start="793" selection-end="793" vertical-scroll-proportion="0.0" vertical-offset="336" max-vertical-offset="960">
-              <folding>
-                <element signature="e#0#2096#0" expanded="false" />
-                <element signature="e#1452#1453#0" expanded="false" />
-                <element signature="e#1477#1478#0" expanded="false" />
-                <element signature="e#1513#1514#0" expanded="false" />
-                <element signature="e#1541#1542#0" expanded="false" />
-                <element signature="e#1574#1575#0" expanded="false" />
-                <element signature="e#1603#1604#0" expanded="false" />
-                <element signature="e#1647#1648#0" expanded="false" />
-                <element signature="e#1683#1684#0" expanded="false" />
-                <element signature="e#1715#1716#0" expanded="false" />
-                <element signature="e#1743#1744#0" expanded="false" />
-                <element signature="e#1785#1786#0" expanded="false" />
-                <element signature="e#1819#1820#0" expanded="false" />
-                <element signature="e#1853#1854#0" expanded="false" />
-                <element signature="e#1883#1884#0" expanded="false" />
-                <element signature="e#1929#1930#0" expanded="false" />
-                <element signature="e#1967#1968#0" expanded="false" />
-                <element signature="e#1997#1998#0" expanded="false" />
-                <element signature="e#2023#2024#0" expanded="false" />
-                <element signature="e#2061#2062#0" expanded="false" />
-                <element signature="e#2091#2092#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ReconnectionThread.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/org/androidpn/client/ReconnectionThread.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="4" selection-start="987" selection-end="987" vertical-scroll-proportion="0.0" vertical-offset="495" max-vertical-offset="1080">
+            <state line="107" column="52" selection-start="3676" selection-end="3849" vertical-scroll-proportion="0.505618" vertical-offset="900" max-vertical-offset="3765">
               <folding />
             </state>
           </provider>
@@ -259,10 +155,10 @@
         <option value="$PROJECT_DIR$/src/org/androidpn/client/NotificationPacketListener.java" />
         <option value="$PROJECT_DIR$/src/asmack/de/measite/smack/Sasl.java" />
         <option value="$PROJECT_DIR$/src/org/androidpn/client/XmppManager.java" />
-        <option value="$PROJECT_DIR$/src/org/androidpn/client/NotificationService.java" />
-        <option value="$PROJECT_DIR$/src/org/androidpn/client/Constants.java" />
         <option value="$PROJECT_DIR$/src/org/androidpn/demoapp/HeartActionBroadCast.java" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/org/androidpn/client/Constants.java" />
+        <option value="$PROJECT_DIR$/src/org/androidpn/client/NotificationService.java" />
       </list>
     </option>
   </component>
@@ -319,6 +215,50 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="androidpn-client-0.5.0-xg" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="androidpn-client-0.5.0-xg" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="androidpn" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demoapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="androidpn-client-0.5.0-xg" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="androidpn-client-0.5.0-xg" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="androidpn" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -341,10 +281,10 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="restartRequiresConfirmation" value="true" />
     <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="0123456789ABCDEF" />
-    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_AVD" value="AVD3.2" />
     <property name="FullScreen" value="false" />
     <property name="OverrideImplement.combined" value="true" />
     <property name="OverrideImplement.overriding.sorted" value="false" />
+    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_AVD" value="AVD3.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -644,11 +584,12 @@
       <workItem from="1393815487614" duration="1682000" />
       <workItem from="1393838783461" duration="389000" />
       <workItem from="1393918794683" duration="2523000" />
+      <workItem from="1394162366235" duration="1663000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47456000" />
+    <option name="totallyTimeSpent" value="49119000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="1280" height="976" extended-state="6" />
@@ -661,26 +602,26 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3364486" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33605602" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.41073513" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.34655777" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2980614" sideWeight="0.50089127" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3302217" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3453909" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2980614" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2980614" sideWeight="0.49910873" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32905483" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32905483" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -705,22 +646,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/org/androidpn/client/XmppManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="250" column="72" selection-start="7547" selection-end="7547" vertical-scroll-proportion="0.0" vertical-offset="3750" max-vertical-offset="6570">
-          <folding>
-            <element signature="e#6756#6772#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/androidpn/client/Constants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="81" column="0" selection-start="2753" selection-end="2753" vertical-scroll-proportion="0.0" vertical-offset="1215" max-vertical-offset="1335">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/org/androidpn/client/NetUtil.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="55" column="0" selection-start="1795" selection-end="1795" vertical-scroll-proportion="0.0" vertical-offset="670" max-vertical-offset="4605" />
@@ -753,9 +678,7 @@
     <entry file="file://$PROJECT_DIR$/src/org/androidpn/client/XmppManager.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="273" column="57" selection-start="8236" selection-end="8236" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="6570">
-          <folding>
-            <element signature="e#6756#6772#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -798,9 +721,7 @@
     <entry file="file://$PROJECT_DIR$/src/org/androidpn/client/XmppManager.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="242" column="0" selection-start="7183" selection-end="7183" vertical-scroll-proportion="0.0" vertical-offset="3630" max-vertical-offset="6630">
-          <folding>
-            <element signature="e#6756#6772#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -843,9 +764,7 @@
     <entry file="file://$PROJECT_DIR$/src/org/androidpn/client/XmppManager.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="396" column="24" selection-start="12924" selection-end="12924" vertical-scroll-proportion="0.0" vertical-offset="5940" max-vertical-offset="6375">
-          <folding>
-            <element signature="e#6756#6772#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -857,13 +776,6 @@
     <entry file="file://$PROJECT_DIR$/src/org/androidpn/client/NetUtil.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="67" column="0" selection-start="2388" selection-end="2388" vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="4050" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/androidpn/client/ServiceManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="98" column="48" selection-start="3501" selection-end="3501" vertical-scroll-proportion="0.0" vertical-offset="943" max-vertical-offset="2700">
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="jar://$PROJECT_DIR$/lib/asmack.jar!/org/jivesoftware/smack/SmackConfiguration.class">
@@ -922,13 +834,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/androidpn/demoapp/DemoAppActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="64" column="31" selection-start="2174" selection-end="2174" vertical-scroll-proportion="0.0" vertical-offset="254" max-vertical-offset="765">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="24" column="56" selection-start="1109" selection-end="1109" vertical-scroll-proportion="0.42184153" vertical-offset="163" max-vertical-offset="645">
@@ -939,39 +844,14 @@
     <entry file="file://$PROJECT_DIR$/src/org/androidpn/client/NotificationReceiver.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="68" column="69" selection-start="2656" selection-end="2779" vertical-scroll-proportion="0.0" vertical-offset="334" max-vertical-offset="1575">
-          <folding>
-            <element signature="e#0#5454#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/org/androidpn/client/NotificationIQ.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="24" column="13" selection-start="793" selection-end="793" vertical-scroll-proportion="0.0" vertical-offset="336" max-vertical-offset="960">
-          <folding>
-            <element signature="e#0#2096#0" expanded="false" />
-            <element signature="e#1452#1453#0" expanded="false" />
-            <element signature="e#1477#1478#0" expanded="false" />
-            <element signature="e#1513#1514#0" expanded="false" />
-            <element signature="e#1541#1542#0" expanded="false" />
-            <element signature="e#1574#1575#0" expanded="false" />
-            <element signature="e#1603#1604#0" expanded="false" />
-            <element signature="e#1647#1648#0" expanded="false" />
-            <element signature="e#1683#1684#0" expanded="false" />
-            <element signature="e#1715#1716#0" expanded="false" />
-            <element signature="e#1743#1744#0" expanded="false" />
-            <element signature="e#1785#1786#0" expanded="false" />
-            <element signature="e#1819#1820#0" expanded="false" />
-            <element signature="e#1853#1854#0" expanded="false" />
-            <element signature="e#1883#1884#0" expanded="false" />
-            <element signature="e#1929#1930#0" expanded="false" />
-            <element signature="e#1967#1968#0" expanded="false" />
-            <element signature="e#1997#1998#0" expanded="false" />
-            <element signature="e#2023#2024#0" expanded="false" />
-            <element signature="e#2061#2062#0" expanded="false" />
-            <element signature="e#2091#2092#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -984,86 +864,100 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/org/androidpn/client/NotificationSettingsActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="123" column="26" selection-start="5053" selection-end="5053" vertical-scroll-proportion="0.0" vertical-offset="1161" max-vertical-offset="1650">
+        <state line="123" column="26" selection-start="5053" selection-end="5053" vertical-scroll-proportion="0.69158876" vertical-offset="1475" max-vertical-offset="2010">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/org/androidpn/client/NotificationPacketListener.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="73" column="19" selection-start="3093" selection-end="3093" vertical-scroll-proportion="0.0" vertical-offset="621" max-vertical-offset="1110">
+        <state line="73" column="19" selection-start="3093" selection-end="3093" vertical-scroll-proportion="0.41520467" vertical-offset="882" max-vertical-offset="1395">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="jar://$PROJECT_DIR$/lib/asmack.jar!/org/jivesoftware/smack/XMPPConnection.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="52" selection-start="537" selection-end="549" vertical-scroll-proportion="-0.88235295" vertical-offset="630" max-vertical-offset="1575">
-          <folding />
-        </state>
+        <state line="15" column="52" selection-start="537" selection-end="549" vertical-scroll-proportion="-0.88235295" vertical-offset="630" max-vertical-offset="1575" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/androidpn-client.iml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="30" selection-start="530" selection-end="530" vertical-scroll-proportion="0.2760736" vertical-offset="0" max-vertical-offset="495">
+        <state line="9" column="30" selection-start="530" selection-end="530" vertical-scroll-proportion="0.2760736" vertical-offset="0" max-vertical-offset="495" />
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/asmack.jar!/org/jivesoftware/smack/PacketWriter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="84" selection-start="614" selection-end="614" vertical-scroll-proportion="0.0" vertical-offset="1" max-vertical-offset="780" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/asmack/org/jivesoftware/smack/PacketWriter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="112" column="90" selection-start="3576" selection-end="3576" vertical-scroll-proportion="0.010706638" vertical-offset="1210" max-vertical-offset="4380" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="0" selection-start="184" selection-end="184" vertical-scroll-proportion="0.33880904" vertical-offset="0" max-vertical-offset="487">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.classpath">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="491">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/androidpn/client/Constants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="80" column="4" selection-start="2756" selection-end="2756" vertical-scroll-proportion="0.7531993" vertical-offset="578" max-vertical-offset="1125">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/asmack/org/jivesoftware/smack/PacketReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="298" column="62" selection-start="12363" selection-end="12363" vertical-scroll-proportion="0.33333334" vertical-offset="3677" max-vertical-offset="6615">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/org/androidpn/client/XmppManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="433" column="10" selection-start="14145" selection-end="14145" vertical-scroll-proportion="0.0" vertical-offset="5417" max-vertical-offset="6555">
-          <folding>
-            <element signature="e#6756#6772#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/asmack.jar!/org/jivesoftware/smack/PacketWriter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="84" selection-start="614" selection-end="614" vertical-scroll-proportion="0.0" vertical-offset="1" max-vertical-offset="780">
+        <state line="86" column="44" selection-start="2495" selection-end="2495" vertical-scroll-proportion="-3.375" vertical-offset="621" max-vertical-offset="6555">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/androidpn/client/NotificationService.java">
+    <entry file="file://$PROJECT_DIR$/src/org/androidpn/demoapp/DemoAppActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="115" column="12" selection-start="4072" selection-end="4072" vertical-scroll-proportion="0.0" vertical-offset="1005" max-vertical-offset="3765">
-          <folding>
-            <element signature="e#7939#7969#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/androidpn/client/Constants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="80" column="43" selection-start="2795" selection-end="2795" vertical-scroll-proportion="0.0" vertical-offset="658" max-vertical-offset="1125">
+        <state line="55" column="30" selection-start="1843" selection-end="1843" vertical-scroll-proportion="0.46629214" vertical-offset="186" max-vertical-offset="765">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/asmack/org/jivesoftware/smack/PacketWriter.java">
+    <entry file="file://$PROJECT_DIR$/src/org/androidpn/client/ServiceManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="112" column="90" selection-start="3576" selection-end="3576" vertical-scroll-proportion="0.010706638" vertical-offset="1210" max-vertical-offset="4380">
+        <state line="98" column="43" selection-start="3496" selection-end="3496" vertical-scroll-proportion="0.3895131" vertical-offset="917" max-vertical-offset="2700">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/org/androidpn/demoapp/HeartActionBroadCast.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="39" selection-start="260" selection-end="260" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="405">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="8" column="49" selection-start="216" selection-end="216" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider editor-type-id="MarkdownPreviewEditor">
-        <state />
-      </provider>
+    <entry file="file://$PROJECT_DIR$/src/org/androidpn/client/NotificationService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="0" selection-start="184" selection-end="184" vertical-scroll-proportion="0.3563715" vertical-offset="0" max-vertical-offset="463">
+        <state line="107" column="52" selection-start="3676" selection-end="3849" vertical-scroll-proportion="0.505618" vertical-offset="900" max-vertical-offset="3765">
           <folding />
         </state>
       </provider>

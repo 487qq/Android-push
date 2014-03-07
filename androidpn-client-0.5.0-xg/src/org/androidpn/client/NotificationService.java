@@ -105,7 +105,7 @@ public class NotificationService extends Service {
             } else {
                 deviceId = (new StringBuilder("EMU")).append(
                         (new Random(System.currentTimeMillis())).nextLong())
-                        .toString();
+                        .toString().toLowerCase();
                 editor.putString(Constants.EMULATOR_DEVICE_ID, deviceId);
                 editor.commit();
             }
@@ -113,7 +113,7 @@ public class NotificationService extends Service {
         Log.d(LOGTAG, "deviceId=" + deviceId);
 
         xmppManager = new XmppManager(this);
-        Constants.xmppManager = xmppManager;
+        Constants.xmppManager=xmppManager;
         taskSubmitter.submit(new Runnable() {
             public void run() {
                 NotificationService.this.start();
