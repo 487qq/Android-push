@@ -17,10 +17,8 @@
  */
 package org.androidpn.server.xmpp.push;
 
-import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
-
 import org.androidpn.server.model.NotificationMO;
 import org.androidpn.server.model.User;
 import org.androidpn.server.service.NotificationService;
@@ -79,7 +77,7 @@ public class NotificationManager {
 	public void sendBroadcast(String apiKey, String title, String message,
 			String uri) {
 		log.debug("sendBroadcast()...");
-		List<NotificationMO> notificationMOs = new ArrayList<NotificationMO>();
+//		List<NotificationMO> notificationMOs = new ArrayList<NotificationMO>();
 		IQ notificationIQ = createNotificationIQ(apiKey, title, message, uri);
 
 		for (ClientSession session : sessionManager.getSessions()) {
@@ -96,26 +94,27 @@ public class NotificationManager {
 			// 将消息的ID添加到通知对象
 			CopyMessageUtil.IQ2Message(notificationIQ, notificationMO);
 			notificationMO.setStatus(NotificationMO.STATUS_NOT_SEND);
+			//入库
+			try{
+			notificationService.saveNotification(notificationMO);
+			}catch(Exception e){
+				log.warn(" notifications insert to database failure!!");
+			}
 			if (session.getPresence().isAvailable()) {
 				
 				notificationIQ.setTo(session.getAddress());
+				
 				session.deliver(notificationIQ);
-
-//				if (result) {
-//					notificationMO.setStatus(NotificationMO.STATUS_SEND);
-//				} else {
-//					notificationMO.setStatus(NotificationMO.STATUS_NOT_SEND);
-//				}
 			} 
 			//将每个通知加入集合中
-			notificationMOs.add(notificationMO);
+//			notificationMOs.add(notificationMO);
 		}
-		try{
-			//批量入库
-			notificationService.createNotifications(notificationMOs);
-		}catch(Exception e){
-			log.warn(" notifications insert to database failure!!");
-		}
+//		try{
+//			//批量入库
+//			notificationService.createNotifications(notificationMOs);
+//		}catch(Exception e){
+//			log.warn(" notifications insert to database failure!!");
+//		}
 		
 	}
 	
@@ -156,31 +155,29 @@ public class NotificationManager {
 		CopyMessageUtil.IQ2Message(notificationIQ, notificationMO);
 		if (session != null && session.getPresence().isAvailable()) {
 			notificationIQ.setTo(session.getAddress());
-			//推送消息
-			session.deliver(notificationIQ);
-			//已发送状态
-//			if(result){
-//			notificationMO.setStatus(NotificationMO.STATUS_SEND);
-//			}else{
-//					
-//			}
+		
 			notificationMO.setStatus(NotificationMO.STATUS_NOT_SEND);
 			try {
 				notificationMO.setClientIp(session.getHostAddress());
 				notificationMO.setResource(session.getAddress().getResource());
+					//保存数据库
+					notificationService.saveNotification(notificationMO);
 			} catch (Exception e) {
-				e.printStackTrace();
+				log.warn(" notifications insert to database failure!!");
 			}
+			//推送消息
+			session.deliver(notificationIQ);
 		}else{
 			//未发送
 			notificationMO.setStatus(NotificationMO.STATUS_NOT_SEND);
+			try {
+					//保存数据库
+					notificationService.saveNotification(notificationMO);
+			} catch (Exception e) {
+				log.warn(" notifications insert to database failure!!");
+			}
 		}
-		try{
-			//保存数据库
-			notificationService.saveNotification(notificationMO);
-		}catch(Exception e){
-			log.warn(" notifications insert to database failure!!");
-		}
+		
 	}
 
 	/**
@@ -232,17 +229,17 @@ public class NotificationManager {
 		if (session != null && session.getPresence().isAvailable()) {
 			notificationIQ.setTo(session.getAddress());
 			session.deliver(notificationIQ);
-			try{
-				//修改通知状态为已发送
-				notificationMO.setStatus(NotificationMO.STATUS_SEND);
-				//IP
-				notificationMO.setClientIp(session.getHostAddress());
-				//来源
-				notificationMO.setResource(session.getAddress().getResource());
-				notificationService.updateNotification(notificationMO);
-			}catch (Exception e) {
-				log.warn(" update notification status failure !");
-			}
+//			try{
+//				//修改通知状态为已发送
+//				notificationMO.setStatus(NotificationMO.STATUS_SEND);
+//				//IP
+//				notificationMO.setClientIp(session.getHostAddress());
+//				//来源
+//				notificationMO.setResource(session.getAddress().getResource());
+//				notificationService.updateNotification(notificationMO);
+//			}catch (Exception e) {
+//				log.warn(" update notification status failure !");
+//			}
 		}
 	}
 }
